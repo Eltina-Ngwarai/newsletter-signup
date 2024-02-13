@@ -6,7 +6,7 @@ function Card() {
       <div className="card-content">
         <h1>Stay updated!</h1>
 
-        <h3>Join 60,000+ product managers receiving monthly updates on: </h3>
+        <h3>Join 60,000+ product managers receiving monthly updates on:</h3>
         <ul>
           <li>Product discovery and building what matters </li>
           <li>Measuring to ensure updates are a success </li>
@@ -15,9 +15,15 @@ function Card() {
         </ul>
       </div>
       <div className="card-form">
-        <label htmlFor="email">Email Address</label>{" "}
+        <label htmlFor="email" className="label">
+          Email Address
+        </label>
         <form>
-          <input type="email" placeholder="Enter your email " />
+          <input
+            type="email"
+            placeholder="email@company.com "
+            className="form-input"
+          />
         </form>
         <button className="subscribe-button">
           Subscribe to monthly subscription
