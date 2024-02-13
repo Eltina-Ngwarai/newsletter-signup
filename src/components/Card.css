@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+}
