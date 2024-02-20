@@ -1,9 +1,10 @@
 import "./Card.css";
+import illustration from "./illustration-sign-up-desktop.svg";
 
 function Card() {
   return (
-    <div className="card">
-      <div className="card-content">
+    <div className="card-container">
+      <div className="card">
         <h1>Stay updated!</h1>
 
         <h3>Join 60,000+ product managers receiving monthly updates on:</h3>
@@ -13,8 +14,6 @@ function Card() {
           <li>Best practices for scaling your product </li>
           <li>And much more! </li>
         </ul>
-      </div>
-      <div className="card-form">
         <label htmlFor="email" className="label">
           Email Address
         </label>
@@ -30,7 +29,7 @@ function Card() {
         </button>
       </div>
       <div className="card-picture">
-        <img src="./illustration-sign-up-desktop.svg" />
+        <img src={illustration} />
       </div>
     </div>
   );
