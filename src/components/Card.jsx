@@ -1,5 +1,6 @@
 import "./Card.css";
 import illustration from "./illustration-sign-up-desktop.svg";
+import iconList from "../images/icon-list.svg";
 
 function Card() {
   return (
@@ -9,10 +10,18 @@ function Card() {
 
         <h3>Join 60,000+ product managers receiving monthly updates on:</h3>
         <ul>
-          <li>Product discovery and building what matters </li>
-          <li>Measuring to ensure updates are a success </li>
-          <li>Best practices for scaling your product </li>
-          <li>And much more! </li>
+          <div className="icon-list">
+            <img src={iconList} />
+            <li>Product discovery and building what matters </li>
+          </div>
+          <div className="icon-list">
+            <img src={iconList} />
+            <li>Measuring to ensure updates are a success </li>
+          </div>
+          <div className="icon-list">
+            <img src={iconList} />
+            <li>And much more! </li>
+          </div>
         </ul>
         <label htmlFor="email" className="label">
           Email Address

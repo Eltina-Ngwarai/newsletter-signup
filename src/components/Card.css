@@ -14,11 +14,18 @@ h3 {
   font-weight: 400;
   font-size: 16px;
 }
+
 li {
   color: hsl(234, 29%, 20%);
+  margin-left: 5px;
   line-height: 2;
   font-size: 16px;
   margin-bottom: 10px;
+  list-style: none;
+  display: inline-block;
+}
+.icon-list {
+  margin-left: -42px;
 }
 .card-container {
   display: flex;
